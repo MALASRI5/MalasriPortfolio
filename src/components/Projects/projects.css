@@ -1,0 +1,59 @@
+.pro-sect {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.pro-sect h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.pro-con {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 20px;
+}
+
+.pro {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+
+.Pro-img{
+    width:100%;
+    height: auto;
+}
+
+.pro h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pro p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: black;
+    background-color: skyblue;
+    text-decoration: none;
+    border-radius: 5%;
+    border-color: #fffcfc;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.btn:hover {
+    background-color: rgb(69, 173, 214);
+}
+
+@media (max-width: 768px) {
+    .pro-con {
+        grid-template-columns: 1fr;
+    }
+}
