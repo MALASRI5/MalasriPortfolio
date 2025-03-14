@@ -1,9 +1,13 @@
+*{
+  margin: 0;
+}
 .App {
   text-align: center;
   overflow-x: hidden;
 }
 
 main {
+  margin-top: 50px;
   padding: 40px 20px;
 }
 

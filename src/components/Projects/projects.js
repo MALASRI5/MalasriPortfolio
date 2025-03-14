@@ -13,8 +13,8 @@ import EmailAlert from './image/emailAlert.png';
 const Projects = () => {
     return (
         <section id='projects' className='pro-sect'>
+            <h2>Projects</h2>
             <div className='pro-con'>
-
                 <div className='pro'>
                     <h3>Blog Website</h3>
                     <img src={BlogWebsite} alt='Blog Website' className='Pro-img' />

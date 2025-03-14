@@ -1,11 +1,14 @@
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #282c34;
   padding: 20px;
-  position: relative;
-  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 .portfolio-title {
@@ -15,6 +18,7 @@
 
 .nav-links {
   display: flex;
+  margin-right: 50px;
 }
 
 .nav-links ul {
@@ -34,6 +38,7 @@
 .hamburger {
   display: none;
   cursor: pointer;
+  margin-right: 25px;
 }
 
 .hamburger .line {
