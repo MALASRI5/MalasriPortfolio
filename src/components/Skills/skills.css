@@ -27,15 +27,11 @@
   padding: 20px;
   width: 180px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-
-.skill:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+.skill:hover{
+  box-shadow: 0 4px 10px rgba(113, 210, 217, 0.2);
 }
-
 /* Skill Name */
 .skill h3 {
   font-size: 20px;
