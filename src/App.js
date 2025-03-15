@@ -23,6 +23,8 @@ function App() {
                 Enthusiastic about creating dynamic, user-friendly webpages, I actively seek to enhance my coding skills.
                 I am a self-motivated and meticulous person who loves to learn and grow in the tech industry.
               </p>
+              <button className='btn about'>Hire Me</button>
+              <button className='btn about'>Resume</button>
             </div>
           </div>
           <Skills />
